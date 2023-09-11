@@ -25,6 +25,12 @@ After that in the root directory run this command to add note as a CLI to your O
 npm link
 ```
 
+and make sure it is added to your OS environment :
+
+```bash
+which note
+```
+
 Then you can see the instruction to use note CLI using the below command :
 
 ```bash
@@ -70,8 +76,8 @@ note clean
 
 Remove CLI from your pc :
 
-- Run the command below in the root of project
+- Run the commands below in the root of project
 
 ```bash
-npm unlink
+npm unlink note --no-save
 ```
